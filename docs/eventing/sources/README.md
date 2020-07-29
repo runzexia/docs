@@ -40,8 +40,8 @@ Name | Status | Support | Description
 [GitHub](https://github.com/knative/eventing-contrib/blob/master/github/pkg/apis/sources/v1alpha1/githubsource_types.go) | Proof of Concept | None | Registers for events of the specified types on the specified GitHub organization/repository. Brings those events into Knative.
 [GitLab](https://github.com/knative/eventing-contrib/blob/master/gitlab/pkg/apis/sources/v1alpha1/gitlabsource_types.go) | Proof of Concept | None | Registers for events of the specified types on the specified GitLab repository. Brings those events into Knative.
 [Kubernetes](https://github.com/knative/eventing/blob/master/pkg/apis/sources/v1alpha1/apiserver_types.go) | Active Development | Knative | Brings Kubernetes API server events into Knative.
-[Ping](https://github.com/knative/eventing/blob/master/pkg/apis/sources/v1alpha2/ping_types.go) | In development | None | Uses an in-memory timer to produce events with a fixed payload on a specified cron schedule.
-[VMware](https://github.com/vmware-tanzu/sources-for-knative/tree/{{< branch >}}/pkg/apis/source/v1alpha1/vspheresource_types.go) | Active Development | None | Brings [vSphere](https://www.vmware.com/products/vsphere.html) events into Knative.
+[Ping](https://github.com/knative/eventing/tree/master/pkg/apis/sources/v1alpha2/ping_types.go) | In development | None | Uses an in-memory timer to produce events with a fixed payload on a specified cron schedule.
+[VMware](https://github.com/vmware-tanzu/sources-for-knative/blob/master/pkg/apis/sources/v1alpha1/vspheresource_types.go)  | Active Development | None | Brings [vSphere](https://www.vmware.com/products/vsphere.html) events into Knative.
 
 
 
